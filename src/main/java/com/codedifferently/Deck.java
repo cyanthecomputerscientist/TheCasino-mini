@@ -1,7 +1,6 @@
 package com.codedifferently;
 
 import java.util.ArrayList;
-import com.codedifferently.Card;
 public class Deck {
     
     public ArrayList<Card> deck = new ArrayList <Card> ();
