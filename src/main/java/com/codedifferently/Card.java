@@ -2,7 +2,7 @@ package com.codedifferently;
 
 public class Card {
 
-    private Integer value;
+    private Integer rank;
     private Integer suit;
 
     public Integer getSuit() {
@@ -12,13 +12,13 @@ public class Card {
     {
         this.suit = s;
     }
-    public Integer getValue()
+    public Integer getRank()
     {
-        return value;
+        return rank;
     }
-    public void setValue(int v)
+    public void setRank(int r)
     {
-        this.value = v;
+        this.rank = r;
     }
     
     

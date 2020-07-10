@@ -37,9 +37,9 @@ public class CardTest {
         //Given
         Card card = new Card();
         Integer expected = 10;
-        card.setValue(expected);
+        card.setRank(expected);
         //When
-        Integer actual = card.getValue();
+        Integer actual = card.getRank();
         //Then
         Assert.assertEquals(expected, actual);
     }
@@ -50,8 +50,8 @@ public class CardTest {
         Card card = new Card();
         Integer expected= 5;
         //When 
-        card.setValue(expected);
-        Integer actual = card.getValue();
+        card.setRank(expected);
+        Integer actual = card.getRank();
         //Then
         Assert.assertEquals(expected, actual);
     }
