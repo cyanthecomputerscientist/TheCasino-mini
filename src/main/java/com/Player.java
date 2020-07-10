@@ -1,10 +1,21 @@
 package com;
+import com.codedifferently.Card;
+import java.util.ArrayList;
 
 public class Player {
-    
+    private String name; 
     private Double money;
-    public Double bet;
+    private Double bet;
+   public ArrayList<Card> cards = new ArrayList<Card> ();
 
+    public String getname()
+    {
+        return this.name;
+    }
+    public void setName(String name)
+    {
+        this.name = name; 
+    }
     public void setMoney(Double mon)
     {
         this.money = mon;
