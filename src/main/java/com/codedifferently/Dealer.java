@@ -1,5 +1,6 @@
 package com.codedifferently;
 import java.util.ArrayList;
+import java.util.Collections;
 
 public class Dealer {
     Player player = new Player();
@@ -22,6 +23,14 @@ public class Dealer {
         bets.add(player);
     }
 
+    public ArrayList<Card> shuffle (Deck deck)
+    {
+        ArrayList<Card> d = deck.getDeck();
+        Collections.shuffle(d);
+        return d;
+
+    }
+    
 
     
 }
