@@ -1,6 +1,4 @@
-package com;
-import com.codedifferently.Card;
-
+package com.codedifferently;
 import org.junit.Assert;
 import org.junit.Test;
 

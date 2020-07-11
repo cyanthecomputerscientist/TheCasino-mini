@@ -1,5 +1,5 @@
 package com.codedifferently.casino;
-import com.Player;
+import com.codedifferently.Player;
 
 import org.junit.Assert;
 import org.junit.Test;

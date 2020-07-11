@@ -1,6 +1,4 @@
-package com;
-import com.codedifferently.Deck;
-import com.codedifferently.Card;
+package com.codedifferently;
 import java.util.ArrayList;
 
 public class Dealer {

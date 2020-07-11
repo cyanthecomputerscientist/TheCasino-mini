@@ -2,8 +2,8 @@ package com.codedifferently.casino;
 
 import java.util.ArrayList;
 
-import com.Dealer;
-import com.Player;
+import com.codedifferently.Dealer;
+import com.codedifferently.Player;
 import com.codedifferently.Card;
 import com.codedifferently.Deck;
 
