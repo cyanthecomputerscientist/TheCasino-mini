@@ -25,8 +25,8 @@ public class Deck {
                 
             }
         }
-
     }
+    
     
 
 }

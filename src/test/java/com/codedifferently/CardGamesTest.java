@@ -27,4 +27,5 @@ public class CardGamesTest {
         //Then
         Assert.assertEquals(expected, actual);
     }
+    
 }

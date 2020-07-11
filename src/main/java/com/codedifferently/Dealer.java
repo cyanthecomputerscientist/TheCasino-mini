@@ -23,11 +23,10 @@ public class Dealer {
         bets.add(player);
     }
 
-    public ArrayList<Card> shuffle (Deck deck)
+    public ArrayList<Card> shuffle (ArrayList<Card> deck)
     {
-        ArrayList<Card> d = deck.getDeck();
-        Collections.shuffle(d);
-        return d;
+        Collections.shuffle(deck);
+        return deck;
 
     }
     

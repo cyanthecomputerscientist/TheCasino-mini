@@ -48,5 +48,22 @@ public class DealerTest {
         //Then 
         Assert.assertEquals(expected, actual);
     }
-    
+    @Test
+    public void shuffleTest()
+    {
+        //Given
+         Dealer dealer = new Dealer();
+         ArrayList<Card> deck1 = dealer.deck.getDeck();
+         dealer.deck.setDeck(deck1);
+         Card aceOfHeartsCard = new Card();
+         aceOfHeartsCard.setRank(1);
+         aceOfHeartsCard.setSuit(1);
+        //When
+        dealer.shuffle(deck1);
+        Card expected = aceOfHeartsCard;
+        Card actual = deck1.get(0);
+        //Then 
+        Assert.assertNotEquals(expected, actual);
+
+    }
 }
