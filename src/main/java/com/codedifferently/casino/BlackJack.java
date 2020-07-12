@@ -1,7 +1,6 @@
 package com.codedifferently.casino;
 
 import java.util.ArrayList;
-
 import com.codedifferently.Card;
 import com.codedifferently.CardGames;
 import com.codedifferently.Dealer;
@@ -12,7 +11,6 @@ public class BlackJack extends CardGames{
 
     public Dealer dealer = new Dealer();
     
-
     public ArrayList<Card> dealerSetup(Dealer deal)
     {
         ArrayList<Card> deck1 = deal.deck.getDeck();
@@ -56,5 +54,5 @@ public class BlackJack extends CardGames{
         }
         return false;
     }
-    
+
 }
