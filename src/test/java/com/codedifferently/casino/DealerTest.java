@@ -27,9 +27,11 @@ public class DealerTest {
         dealer.deal(deck, player);
         Integer expected = 51;
         Integer actual = deck.size();
+        Integer expected1 = 1;
+        Integer actual1 = player.cards.size();
         //Then
         Assert.assertEquals(expected, actual);
-
+        Assert.assertEquals(expected1, actual1);
 
     }
     @Test

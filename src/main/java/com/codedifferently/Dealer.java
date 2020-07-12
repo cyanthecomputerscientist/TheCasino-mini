@@ -27,7 +27,6 @@ public class Dealer {
     {
         Collections.shuffle(deck);
         return deck;
-
     }
     
 
