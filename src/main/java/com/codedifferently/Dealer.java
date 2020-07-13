@@ -6,6 +6,7 @@ public class Dealer {
     Player player = new Player();
     public ArrayList<Player> bets = new ArrayList<Player>();
     public Deck deck = new Deck();
+    public ArrayList <Card> hand = new ArrayList<Card>(); 
     
 
     public void deal(ArrayList<Card> deck,Player player)

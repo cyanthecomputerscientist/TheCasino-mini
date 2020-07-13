@@ -39,7 +39,6 @@ public class BlackJackTest {
         p.setName("Monica");
         p.setMoney(1000.00);
         p.setBet(500.00);
-        ArrayList <Card> deckie = blackJack.dealerSetup(d);
         d.takeBets(p);
         Card card1 = new Card();
         card1.setRank(1);
@@ -69,7 +68,6 @@ public class BlackJackTest {
         p.setName("Monica");
         p.setMoney(1000.00);
         p.setBet(500.00);
-        ArrayList <Card> deckie = blackJack.dealerSetup(d);
         d.takeBets(p);
         Card card1 = new Card();
         card1.setRank(1);
